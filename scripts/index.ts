@@ -38,7 +38,7 @@ class construktor<S extends string> {
 
     tableFunction(id: number) {
         const tableOwerflow = <HTMLCollectionOf<HTMLElement>>document.getElementsByClassName("tables");
-        for(let i = -0; i <= tableOwerflow.length; i++) {
+        for(let i = 0; i <= tableOwerflow.length; i++) {
             if(id !== i) {
                 tableOwerflow[i].style.flexBasis = "7.5vh";
             } else {

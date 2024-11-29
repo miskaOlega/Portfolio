@@ -33,7 +33,6 @@ div#leftContent {
     height: 99%;
     div#topLeftContent {
         height: 30%;
-        margin-bottom: -20px;
         
     }
     div#bottomLeftContent {
@@ -42,10 +41,9 @@ div#leftContent {
         margin-top: -10px;
         div#contacts {
             h1 {
-                padding-top: 10px;
                 text-align: center;
                 font-size: 5vh;
-                border-bottom: 0.3vb solid black
+                border-bottom: 0.3vh solid black
             }
         }
     }
@@ -217,6 +215,14 @@ div#workExperience {
     bottom: 5vh;
     font-size: 1.5vh;
     font-family: sans-serif;
+}
+div#Nav {
+    background-color: white;
+    width: 89vh;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2vh;
+    border: 0.1vh black solid;
 }
 
 div.tables:hover {
