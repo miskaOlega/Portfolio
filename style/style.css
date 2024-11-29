@@ -30,15 +30,13 @@ div#leftContent {
     box-shadow: 15px 5px 10px black;
     color: whitesmoke;
     -webkit-text-stroke: 0.1vh black;
-    height: 99%;
+    height: 98vh;
     div#topLeftContent {
-        height: 30%;
-        
+        height: 20vh;
     }
     div#bottomLeftContent {
         background-color: red;
-        height: 69%;
-        margin-top: -10px;
+        height: 74.6vh;
         div#contacts {
             h1 {
                 text-align: center;
